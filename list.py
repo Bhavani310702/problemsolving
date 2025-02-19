@@ -66,5 +66,35 @@
 # arr = [10,20, 10, 30, 20, 20] 
 # arr1 = [30, 50, 30, 50, 20, 50, 50, 20, 50, 50]    
 # print(pair(arr),"pairs")
-# print(pair(arr1),"pairs")  
+# print(pair(arr1),"pairs") 
+
+# Wap to check if the digits of each number in an list are in increasing order,
+#  returning true or false for each Increasing order or not
+
+# numbers = [253, 678, 258, 321]
+# for i in numbers:
+#     str_number = str(i)
+#     increasing = True
+#     for j in range(len(str_number) - 1):
+#         if str_number[j] >= str_number[j + 1]:  
+#             increasing = False
+#             break
+#     print(increasing) 
+
+
+
+# Wap to check if the digits of each number in an list are in decreasing order and
+#  return an array of true otherwise false.Decreasing order -true   
+
+# numbers = [111, 321, 300, 652, 789]
+# result = []  
+# for i in numbers:
+#     str_number = str(i)
+#     decreasing = True  
+#     for j in range(len(str_number) - 1):
+#         if str_number[j] <= str_number[j + 1]:   
+#             decreasing = False
+#             break  
+#     result.append(decreasing)
+# print(result)
 
